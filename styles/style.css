@@ -55,3 +55,196 @@ header {
   cursor: pointer;
 }
 
+/* Hero */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgb(46, 37, 80) 50%, transparent 50%), url("images/hojasFondo.jpg");
+  background-size: cover;
+  color: white;
+  padding: 3em 1em;
+  text-align: center;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 0.5em;
+}
+
+.hero-text p {
+  margin-bottom: 1em;
+  font-size: 18px;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn.active {
+  background: white;
+  color: #e91e9c;
+}
+
+.decoracion-img {
+  width: 200px;
+  margin: 2em auto;
+}
+
+/* FEATURES */
+.features {
+  background-color: #f0f0f5;
+  padding: 3em 1em;
+  text-align: center;
+}
+
+.feature-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2em;
+  justify-content: center;
+}
+
+.feature-content img {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+}
+
+.feature-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.features h2 {
+  font-size: 36px;
+  color: #f72585;
+  margin-bottom: 1em;
+}
+
+.features h3 {
+  font-size: 28px;
+  color: #c43e90;
+  margin-bottom: 0.5em;
+}
+
+.features h4 {
+  color: #f72585;
+  font-size: 20px;
+  margin-top: 1em;
+}
+
+.features p, .features li {
+  font-size: 16px;
+  margin-bottom: 0.5em;
+}
+
+.features li i {
+  color: #ff00b0;
+  margin-right: 0.5em;
+}
+
+/* PRICING */
+.pricing {
+  background-color: #2e2059;
+  color: white;
+  padding: 3em 1em;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 36px;
+}
+
+.pricing p {
+  max-width: 800px;
+  margin: 1em auto 2em auto;
+  font-size: 16px;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.plan {
+  background: white;
+  color: black;
+  width: 300px;
+  padding: 1.5em;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.plan h3 {
+  color: #e21292;
+  font-size: 24px;
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plan ul li {
+  margin: 0.5em 0;
+}
+
+.price, .priceuno, .pricedos {
+  background: #f5f5f5;
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.amount {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.currency {
+  font-size: 24px;
+  vertical-align: top;
+}
+
+.free {
+  font-size: 14px;
+  color: #666;
+  margin-left: 0.5em;
+}
+
+.subscribe, .subscribee, .subscribeee {
+  background-color: #2e2059;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.plan.highlight {
+  border: 2px solid #1f1235;
+}
